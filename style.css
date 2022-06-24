@@ -1,0 +1,546 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 1rem;
+}
+
+section{
+    margin-top: 1%;
+}
+/*---------Header-----*/
+
+.container-fluid .text-body{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 200%;
+}
+
+li{
+    padding: 1%;
+}
+
+.offcanvas-body li{
+    list-style: none;
+}
+
+.offcanvas-body .sous-menu1 a{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 2.2vh;
+}
+
+.trait{
+    border: 3px;
+}
+
+.offcanvas-body .sous-menu a{
+    font-size: 1.5vh;
+    font-weight: 600;
+}
+
+.sous-menu img{
+    padding-right: 5%;
+}
+
+.sous-menu-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+
+/*-----image principal-----------*/
+
+.background{
+    background-image: url(/IMG/image-principal.png);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 40vh;
+}
+
+.mobile-article{
+    margin-left: 35%;
+    margin-bottom: 10%;
+}
+.title-header1{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.5vh;
+    font-weight: 600;
+    color: black;
+    margin-left: 10%;
+}
+
+.row button{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 0;
+    font-size: 70%;
+    font-weight: 600;
+    width: 17vh;
+}
+
+.row button:hover{
+    background-color: black;
+    color: white;
+}
+
+/*-------------section1---------------------*/
+
+.title1{
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.carousel-inner{
+    margin: 5% 25%;
+}
+.carousel-item{
+    width: 50%;
+    margin: auto;
+}
+
+/*------------------------image2-------*/
+
+.back{
+    margin: 10% 0;
+}
+
+.background2{
+    background-image: url(/IMG/fond-vert.png);
+    background-position: center;
+    background-size: cover;
+    height: 55vh;
+    width: auto;
+}
+
+.background2 p{
+    font-weight: 600;
+}
+
+.title2{
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row .btn-vert{
+    width: 30%;
+    height: 100%;
+}
+
+.row .col-sm{
+    color: black;
+    margin-left: 10%;
+    margin-top: 10%;
+    
+}
+
+.row .col-sm-4{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 8%;
+}
+
+.row .col-sm-4:hover{
+    background-color: black;
+    color: white;
+}
+/*---------------image3-----*/
+
+.background3{
+    background-image: url(/IMG/summer.jpg);
+    height: 57vh;
+    width: auto;
+    background-size: cover;
+}
+
+.bg3{
+    margin-bottom: 15%;
+    padding-left: 15%;
+}
+
+.row .col-sm-5{
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.row .btn-light{
+    height: 8%;
+    width: 40%;
+    border: none;
+}
+/*-----------footer----*/
+
+.section-footer .navbar{
+    font-size: 120%;
+}
+
+.navbar-toggler img{
+    width: 40%;
+}
+
+.nav-footer li a{
+    font-size: 14px;
+    text-align: start;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.plus{
+    background-color: #f8f9fa;
+    border: none;
+}
+
+.nav-item .help{
+    padding-right: 2%;
+}
+/*-------------------------*/
+.promo-desktop{
+    display: none;
+}
+
+.header-desktop{
+    display:none
+}
+
+.none-mobile{
+    display: none;
+}
+
+.article-desktop{
+    display: none;
+}
+
+.back-vert{
+    display: none;
+}
+.display-none1{
+    display: block;
+}
+
+.background3-bis{
+    display: none;
+}
+
+footer .footer-middle{
+    display: none;
+}
+/**--------------DESKTOPS------------------------------------------**/
+
+@media only screen and (min-width : 1200px){
+
+    body{
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .display-none1{
+        display: none;
+    }
+
+    .none-mobile{
+        display: block;
+    }
+
+    .header-desktop{
+        display: block;
+    }
+
+    .section1-desktop{
+        margin: 5%;
+    }
+
+    .back-vert{
+        display: block;
+    }
+
+    .article-desktop{
+        display: block;
+    }
+
+    .carousel{
+        display: none;
+    }
+
+    .background3-bis{
+        display: block;}
+
+    footer .footer-middle{
+        display: block;
+    }
+
+    .fond{
+        background-color: #F4F5F7 ;
+    }
+/*------------- NAVBAR-----------------------------*/
+
+.promo-mobile{
+    display: none;
+}
+
+.promo-desktop{
+    display: block;
+}
+
+
+.paragraphe-promo{
+    padding-top: 1%;
+    padding-left: 57%;
+}
+
+.conteneur-promo{
+    width: 210vh;
+}
+
+.header-end{
+    list-style: none;
+    padding-left: 5%;
+}
+
+.header-end li{
+    margin-left: 5%;
+}
+
+.header-end li a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 70%;
+}
+
+ul li a  .img-navbar{
+    padding-left: 15%;
+    width: 47%;
+}
+
+
+.title1 .text-body{
+font-size: 40px;
+font-family: 'Bodoni Moda', serif;
+}
+
+#navbarNav .navbar-menu2{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 100%;
+    color: black;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-menu2 li a{
+    color: black;
+}
+
+.navbar-menu2 .nav-width{
+    display: inline-block;
+    text-align: justify;
+} 
+
+/*-----------------------BG HEADER---------------*/
+
+.background{
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+}
+
+.desktop-article{
+    margin: 10% 0;
+}
+
+.title-article h1{
+    font-family: 'Bodoni Moda', serif;
+    margin: 3% 0;
+}
+
+.article1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraphe-article{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.bouton-article button{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px 60px;
+}
+
+/*------------CARROUSSEL-FEMME----------------*/
+
+
+.section1-desktop .title1{
+    margin: 5% 0;
+}
+.image-desktop{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.image-desktop figure{
+    margin: 0 5%;
+}
+
+.image-desktop figure img{
+    height: 80%;
+    width: 35vh;
+    transition:all 1s ease-out;
+    transform: scale(1);
+}
+
+
+.image-desktop figure .zoom:hover{
+    transform: scale(1.2);
+}
+
+/*--------------------------BACKGROUNF-FOND-VERT-------*/
+
+.background-vert{
+    display: flex;
+    justify-content: space-around
+
+}
+
+.background-vert .conteneur-texte{
+    align-self: flex-end;
+    margin-bottom: 1%;
+}
+
+.title-fond-vert{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+}
+
+.row .btn-vert2{
+    width: 30vh;
+    height: 5vh;
+}
+
+/*--------------------CARROUSSEL-HOMME----------------------*/
+
+.section2-desktop .title2{
+    margin-bottom: 5%;
+}
+/*---------------------BACKGROUND-PLAYA---------------------*/
+
+.background3-bis{
+    background-image: url(/IMG/summer.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.background3-bis-title h4{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+    position: absolute;
+    right: 4%;
+    top: 5%;
+}
+
+.bouton-back-bis button{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 50px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    right: 3%;
+    top: 10% ;
+}
+
+.bouton-back-bis button:hover{
+    background-color: transparent;
+}
+.background3-bis{
+    margin: 5% 10%;
+}
+/*---------------------FOOTER---------------------------------*/
+.colonne1{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.colonne2{
+    margin-top: 3%;
+}
+
+.col-followus{
+    margin-top: 1%;
+    padding-right: 10%;
+}
+
+.colonne1 h4{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 100%;
+    font-weight: 600;
+}
+
+.colonne1 ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 80%;
+}
+
+.colonne1 ul li{
+    padding-left: 5px;
+}
+
+.colonne2 h4{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 100%;
+    font-weight: 600;
+}
+
+.colonne2 ul li{
+    padding-left: 20px;
+}
+
+.colonne2 ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 80%;
+}
+
+.col-followus h4{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 100%;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.col-followus1{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+}
+
